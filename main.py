@@ -195,9 +195,9 @@ async def on_member_join(member):
         ]
 
         frases_final = [
-            "Prepárate para la aventura <a:baby_toom:1369756014580207617>",
-            "¡Explora, conoce y diviértete! <a:baby_toom:1369756014580207617>",
-            "¡Comienza tu viaje ahora! <a:baby_toom:1369756014580207617>",
+            "Prepárate para la aventura <a:Baby:1364261003944136744>",
+            "¡Explora, conoce y diviértete! <a:Baby:1364261003944136744>",
+            "¡Comienza tu viaje ahora! <a:Baby:1364261003944136744>",
         ]
 
         # Elegir una frase de cada grupo
@@ -206,9 +206,9 @@ async def on_member_join(member):
         linea3 = random.choice(frases_final)
 
         # Texto fijo
-        linea_rules = "<a:Target:1357186717060432045> ¡Asegúrate de revisar la <id:home>\n📜 Y de leer las <#1351290702755270881> antes de comenzar! <:Discord:1369755864067473540>"
+        linea_rules = "<a:Target:1357186717060432045> ¡Asegúrate de revisar la <id:home>\n📜 Y de leer las <#1351290702755270881> antes de comenzar! <:discord:1357189861689266307>"
 
-        linea_soporte = "-#  Si tienes dudas, el equipo de moderación está disponible <:Soporte:1369755750712348713>"
+        linea_soporte = "-#  Si tienes dudas, el equipo de moderación está disponible <:Soporte:1369748445203796140>"
 
         # Combinar todas las líneas
         descripcion_embed = f"{linea1}\n\n{linea2}\n\n{linea_rules}\n\n{linea3}\n\n{linea_soporte}"
